@@ -13,5 +13,6 @@ public class MyReducer extends Reducer<Text, IntWritable,Text,IntWritable> {
         for (IntWritable value : values) {
             minValue = Math.min(minValue, value.get());
         }
+        context.write(key,new IntWritable(minValue));
     }
 }
