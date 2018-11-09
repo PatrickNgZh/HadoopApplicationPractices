@@ -6,11 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="47566631-4230-4b38-9660-5c10cb62954d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../MinWeatherWithoutCombiner/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MinWeatherWithoutCombiner/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MinWeatherWithoutCombiner/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MinWeatherWithoutCombiner/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MinWeatherWithoutCombiner/src/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/../MinWeatherWithoutCombiner/src/META-INF/MANIFEST.MF" afterDir="false" />
-    </list>
+    <list default="true" id="47566631-4230-4b38-9660-5c10cb62954d" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,7 +19,7 @@
     <session id="2058675617">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="9" />
+          <entry key="project.closed" value="10" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.107" value="1" />
           <entry key="project.open.time.108" value="1" />
@@ -31,34 +27,35 @@
           <entry key="project.open.time.166" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.79" value="1" />
+          <entry key="project.open.time.86" value="1" />
           <entry key="project.open.time.87" value="1" />
           <entry key="project.open.time.93" value="1" />
-          <entry key="project.opened" value="9" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="MF" value="1" />
           <entry key="class" value="1" />
-          <entry key="java" value="15" />
+          <entry key="java" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="15" />
+          <entry key="JAVA" value="16" />
           <entry key="Manifest" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="2360" />
+          <entry key="java" value="2379" />
           <entry key="xml" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2360" />
+          <entry key="JAVA" value="2379" />
           <entry key="XML" value="3" />
         </counts>
       </usages-collector>
@@ -73,7 +70,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/hadoop/averagetemperaturewithcombiner/AverageTemperatureMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
+            <state relative-caret-position="525">
               <caret line="21" selection-start-line="21" selection-end-line="21" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -85,8 +82,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/hadoop/averagetemperaturewithcombiner/AverageTemperatureCombiner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="362">
-              <caret line="22" column="40" lean-forward="true" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
+            <state relative-caret-position="312">
+              <caret line="20" column="23" lean-forward="true" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -97,8 +94,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/hadoop/averagetemperaturewithcombiner/AverageTemperatureReducer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="362">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="625">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hadoop/averagetemperaturewithcombiner/AverageTemperature.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-263">
+              <caret line="63" column="42" lean-forward="true" selection-start-line="63" selection-start-column="42" selection-end-line="63" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -124,11 +133,11 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/hadoop/averagetemperaturewithcombiner/MyMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hadoop/averagetemperaturewithcombiner/TemperatureAggregator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hadoop/averagetemperaturewithcombiner/AverageTemperature.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hadoop/averagetemperaturewithcombiner/test.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hadoop/averagetemperaturewithcombiner/AverageTemperatureMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hadoop/averagetemperaturewithcombiner/AverageTemperatureCombiner.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hadoop/averagetemperaturewithcombiner/AverageTemperatureReducer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hadoop/averagetemperaturewithcombiner/AverageTemperature.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hadoop/averagetemperaturewithcombiner/AverageTemperatureCombiner.java" />
       </list>
     </option>
   </component>
@@ -224,9 +233,9 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Course" />
       <pane id="Scope" />
+      <pane id="Course" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -331,17 +340,18 @@
       <workItem from="1541764675728" duration="269000" />
       <workItem from="1541766177503" duration="640000" />
       <workItem from="1541767785174" duration="566000" />
+      <workItem from="1541769203557" duration="196000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17500000" />
+    <option name="totallyTimeSpent" value="17696000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.27485853" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.32255456" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="JRebel" order="3" side_tool="true" />
@@ -409,37 +419,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hadoop/averagetemperaturewithcombiner/AverageTemperature.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hadoop/averagetemperaturewithcombiner/test.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hadoop/averagetemperaturewithcombiner/AverageTemperatureCombiner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="887">
-          <caret line="60" column="3" selection-start-line="60" selection-start-column="3" selection-end-line="60" selection-end-column="3" />
+        <state relative-caret-position="312">
+          <caret line="20" column="23" lean-forward="true" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hadoop/averagetemperaturewithcombiner/test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hadoop/averagetemperaturewithcombiner/AverageTemperatureReducer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="625">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hadoop/averagetemperaturewithcombiner/AverageTemperatureCombiner.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hadoop/averagetemperaturewithcombiner/AverageTemperature.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="22" column="40" lean-forward="true" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
+        <state relative-caret-position="-263">
+          <caret line="63" column="42" lean-forward="true" selection-start-line="63" selection-start-column="42" selection-end-line="63" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -448,7 +452,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hadoop/averagetemperaturewithcombiner/AverageTemperatureMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
+        <state relative-caret-position="525">
           <caret line="21" selection-start-line="21" selection-end-line="21" />
           <folding>
             <element signature="imports" expanded="true" />

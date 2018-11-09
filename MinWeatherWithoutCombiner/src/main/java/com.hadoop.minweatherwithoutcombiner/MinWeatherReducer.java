@@ -6,7 +6,7 @@ import org.apache.hadoop.mapreduce.Reducer;
 
 import java.io.IOException;
 
-public class MyReducer extends Reducer<Text, IntWritable,Text,IntWritable> {
+public class MinWeatherReducer extends Reducer<Text, IntWritable,Text,IntWritable> {
     @Override
     protected void reduce(Text key, Iterable<IntWritable> values, Context context) throws IOException, InterruptedException {
         int minValue = Integer.MAX_VALUE;

@@ -29,9 +29,8 @@ public class MinWeatherWithoutCombiner {
         FileInputFormat.addInputPath(job, new Path(otherArgs[0]));
         FileOutputFormat.setOutputPath(job, new Path(otherArgs[1]));
 
-        job.setMapperClass(MyMapper.class);
-        job.setReducerClass(MyReducer.class);
-
+        job.setMapperClass(MinWeatherMapper.class);
+        job.setReducerClass(MinWeatherReducer.class);
 
         job.setOutputKeyClass(Text.class);
         job.setOutputValueClass(IntWritable.class);
@@ -43,9 +42,9 @@ public class MinWeatherWithoutCombiner {
         Date endTime = new Date();
         double duration = (endTime.getTime() - startTime.getTime()) / 60000.0;
 
-        System.out.println("任务开始：" + dateFormat.format(startTime));
-        System.out.println("任务结束：" + dateFormat.format(endTime));
-        System.out.println("任务耗时：" + String.valueOf(duration) + " 分钟");
+        System.out.println("begin：" + dateFormat.format(startTime));
+        System.out.println("end：" + dateFormat.format(endTime));
+        System.out.println("consume：" + String.valueOf(duration) + " min");
 
         System.exit(job.isSuccessful() ? 0 : -1);
     }

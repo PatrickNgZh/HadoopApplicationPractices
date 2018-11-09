@@ -7,9 +7,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0ce40590-12c5-467c-846a-f1c217dcf426" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../AverageTemperatureWithCombiner/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AverageTemperatureWithCombiner/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com.hadoop.minweatherwithoutcombiner/MinWeatherWithoutCombiner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.hadoop.minweatherwithoutcombiner/MinWeatherWithoutCombiner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com.hadoop.minweatherwithoutcombiner/MyMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.hadoop.minweatherwithoutcombiner/MinWeatherMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com.hadoop.minweatherwithoutcombiner/MyReducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.hadoop.minweatherwithoutcombiner/MinWeatherReducer.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -54,20 +56,22 @@
     <session id="-950272740">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
+          <entry key="project.closed" value="7" />
           <entry key="project.open.time.136" value="1" />
           <entry key="project.open.time.149" value="1" />
           <entry key="project.open.time.34" value="1" />
           <entry key="project.open.time.362" value="1" />
+          <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.96" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="26" />
+          <entry key="JAVA" value="102" />
           <entry key="Manifest" value="2" />
+          <entry key="PLAIN_TEXT" value="74" />
           <entry key="XML" value="284" />
         </counts>
       </usages-collector>
@@ -84,7 +88,8 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="MF" value="2" />
-          <entry key="java" value="26" />
+          <entry key="dummy" value="74" />
+          <entry key="java" value="102" />
           <entry key="xml" value="284" />
         </counts>
       </usages-collector>
@@ -99,10 +104,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com.hadoop.minweatherwithoutcombiner/MyReducer.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com.hadoop.minweatherwithoutcombiner/MinWeatherReducer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="15" column="50" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
+            <state relative-caret-position="287">
+              <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -113,8 +118,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com.hadoop.minweatherwithoutcombiner/MinWeatherWithoutCombiner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="625">
-              <caret line="37" selection-start-line="37" selection-end-line="37" />
+            <state relative-caret-position="925">
+              <caret line="37" column="40" selection-start-line="37" selection-start-column="40" selection-end-line="37" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -123,28 +128,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com.hadoop.minweatherwithoutcombiner/MinWeatherMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="159">
-              <caret line="38" column="30" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/META-INF/MANIFEST.MF">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com.hadoop.minweatherwithoutcombiner/MyMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+            <state relative-caret-position="-27">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -170,10 +157,12 @@
         <option value="$PROJECT_DIR$/src/main/java/MyMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/MyReducer.java" />
         <option value="$PROJECT_DIR$/src/main/java/MinWeatherWithoutCombiner.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com.hadoop.minweatherwithoutcombiner/MinWeatherWithoutCombiner.java" />
         <option value="$PROJECT_DIR$/src/main/java/com.hadoop.minweatherwithoutcombiner/MyReducer.java" />
         <option value="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com.hadoop.minweatherwithoutcombiner/MinWeatherReducer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com.hadoop.minweatherwithoutcombiner/MinWeatherMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com.hadoop.minweatherwithoutcombiner/MinWeatherWithoutCombiner.java" />
       </list>
     </option>
   </component>
@@ -216,7 +205,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Course" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -267,14 +258,12 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Course" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541694502004" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541769906992" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.0" />
@@ -315,17 +304,18 @@
       <workItem from="1541628785039" duration="37000" />
       <workItem from="1541690036517" duration="4318000" />
       <workItem from="1541718567385" duration="122000" />
+      <workItem from="1541769412889" duration="511000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10389000" />
+    <option name="totallyTimeSpent" value="10900000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31689572" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32174617" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -369,26 +359,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.hadoop.minweatherwithoutcombiner/MyReducer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="15" column="50" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.hadoop.minweatherwithoutcombiner/MinWeatherWithoutCombiner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="625">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/META-INF/MANIFEST.MF">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -396,20 +366,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.hadoop.minweatherwithoutcombiner/MyMapper.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+        <state relative-caret-position="234">
+          <caret line="32" column="32" lean-forward="true" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.hadoop.minweatherwithoutcombiner/MinWeatherWithoutCombiner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="925">
+          <caret line="37" column="40" selection-start-line="37" selection-start-column="40" selection-end-line="37" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.hadoop.minweatherwithoutcombiner/MinWeatherReducer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="38" column="30" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
+        <state relative-caret-position="287">
+          <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.hadoop.minweatherwithoutcombiner/MinWeatherMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-27">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
